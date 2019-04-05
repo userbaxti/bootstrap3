@@ -287,3 +287,88 @@ header{
 }
 
 /*end of pricing */
+
+
+/*
+contact
+*/
+
+.contact{
+	background: linear-gradient(105deg,  rgba(21,31,32, 1) 0%, rgba(21,31,32, .95) 45%, transparent ),url(../img/form-img.jpeg) center center no-repeat /cover;
+}
+
+.input{
+	background: transparent;
+	border-color: transparent;
+	border-radius: 0;
+	border-bottom: 2px solid #ccc;
+	transition: all .8s;
+}
+.input:focus{
+	background: transparent;
+	border-color: transparent;
+	box-shadow: none;
+	color: #fff;
+	border-bottom: 2px solid #f5593d;
+}
+.submit-button{
+	background: #f5593d;
+	color: #eee;
+}
+
+.submit-button:hover,
+.submmit-button::focus{
+	background: #f9793d;
+	box-shadow: none;
+
+	transform: translateY(-3px);
+}
+
+.label{
+	color: #777;
+	display: block;
+	margin-top: -70px;
+	margin-left: 4px;
+	font-size: 13px;
+	transition: all .2s;
+}
+
+.input:placeholder-shown + .label{
+	transform: translate(20px, 20px);
+	opacity: 0;
+	visibility: hidden;
+}
+
+@media(max-width: 992px){
+	.contact{
+		background: linear-gradient(rgba(21,32,32, 1), rgba(21,31,32,.95));
+	}
+	.contact-form{
+		width: 60%;
+		margin: auto;
+	}
+}
+/*end of contact*/
+
+/* footer */
+.footer-link{
+	color: #fff;
+	font-size: 13px;
+}
+.footer-link:hover{
+		color: #70aed2;
+		text-decoration: none;
+}
+
+hr{
+	color: #fff;
+}
+/*end of footer*/
+
+
+
+
+
+
+
+
